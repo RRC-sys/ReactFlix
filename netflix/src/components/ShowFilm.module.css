@@ -1,0 +1,91 @@
+.showFilm {
+    position: relative;
+    width: 100vw;
+    height: 250px;
+}
+
+.custom-slider {
+    width: 100%;
+}
+
+.custom-slider .slick-slide {
+    padding: 0 8px;
+}
+
+.ContainerShowFilm {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ContainerShowFilm img {
+    width: 14.5vw;
+    height: 8.5vw;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.showFilm h3 {
+    margin-left: 3vw;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.btnRight,
+.btnLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 45px;
+    height: 165px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.btnRight {
+    background-image: linear-gradient(to left, rgb(0, 0, 0), transparent);
+}
+
+.btnLeft {
+    display: none;
+    background-image: linear-gradient(to left, transparent, rgb(0, 0, 0));
+    margin-left: -3.7vw;
+}
+
+.showFilm:hover .btnRight,
+.showFilm:hover .btnLeft {
+    opacity: 1;
+}
+
+.btnRight i,
+.btnLeft i {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.btnLeft:hover {
+    opacity: 1;
+    background-image: linear-gradient(to left, transparent, rgb(0, 0, 0));
+    cursor: pointer;
+}
+
+.btnRight:hover {
+    opacity: 1;
+    background-image: linear-gradient(to left, rgb(0, 0, 0), transparent);
+    cursor: pointer;
+}
+
+.btnRight {
+    right: 0.8%;
+}
+
+.btnLeft {
+    left: 3.7%;
+}

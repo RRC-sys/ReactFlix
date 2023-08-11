@@ -1,0 +1,75 @@
+.banner {
+    height: 90vh;
+    width: 100%;
+    background-image: url("../../public/images/banner-home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 260px;
+}
+
+.logo img{
+    width: 400px;
+}
+
+.banner p {
+    width: 700px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.logoShow {
+    margin-bottom: 14vh;
+}
+
+.banner .btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner .btn i[class="bi bi-info-circle"]{
+    margin-right: 10px;
+    font-size: 30px;
+    padding: 12px 0px;
+}
+
+.banner .btn i[class="bi bi-play-fill"]{
+    margin-right: 10px;
+    font-size: 50px;
+    padding: 1px 0px;
+}
+
+.banner .btn a {
+    text-align: center;
+    text-decoration: none;
+    color: #020202;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 0px 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.banner .btn a:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.banner .btn a:last-child {
+    background-color: rgba(160, 135, 135, 0.7);
+    color: #FFFFFF;
+}
+
+.banner .btn a:last-child:hover {
+    background-color: rgba(160, 135, 135, 0.5);
+}
